@@ -2,12 +2,14 @@ package handlers
 
 import (
 	"fmt"
+	"host-manager/pkg/driver"
+	"host-manager/pkg/repository"
+	"host-manager/pkg/repository/dbrepo"
+
 	"github.com/CloudyKit/jet/v6"
-	"github.com/tsawler/vigilate/pkg/config"
-	"github.com/tsawler/vigilate/pkg/driver"
-	"github.com/tsawler/vigilate/pkg/helpers"
-	"github.com/tsawler/vigilate/pkg/repository"
-	"github.com/tsawler/vigilate/pkg/repository/dbrepo"
+	"host-manager/pkg/config"
+	"host-manager/pkg/helpers"
+
 	"log"
 	"net/http"
 	"runtime/debug"

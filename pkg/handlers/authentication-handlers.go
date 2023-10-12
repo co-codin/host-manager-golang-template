@@ -4,14 +4,16 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"fmt"
-	"github.com/tsawler/vigilate/pkg/config"
-	"github.com/tsawler/vigilate/pkg/forms"
-	"github.com/tsawler/vigilate/pkg/helpers"
-	"github.com/tsawler/vigilate/pkg/models"
+	"host-manager/pkg/forms"
+	"host-manager/pkg/helpers"
+	"host-manager/pkg/models"
+
 	"log"
 	"net/http"
 	"strings"
 	"time"
+
+	"host-manager/pkg/config"
 )
 
 // LoginScreen shows the home (login) screen
