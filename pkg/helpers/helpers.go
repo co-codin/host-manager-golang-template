@@ -2,11 +2,13 @@ package helpers
 
 import (
 	"fmt"
+	"host-manager/pkg/config"
+	"host-manager/pkg/forms"
+	"host-manager/pkg/templates"
+
 	"github.com/CloudyKit/jet/v6"
 	"github.com/justinas/nosurf"
-	"github.com/tsawler/vigilate/pkg/config"
-	"github.com/tsawler/vigilate/pkg/forms"
-	"github.com/tsawler/vigilate/pkg/templates"
+
 	"log"
 	"math/rand"
 	"net/http"

@@ -1,11 +1,9 @@
 #!/bin/zsh
 
-# This is the bare minimum to run in development. For full list of flags,
-# run ./vigilate -help
 
-go build -o vigilate cmd/web/*.go && ./vigilate \
--dbuser='someuser' \
--pusherHost='pusher.com' \
+go build -o host-manager cmd/web/*.go && ./host-manager \
+-dbuser='postgres' \
+-pusherHost='localhost' \
 -pusherSecret='somesecret' \
 -pusherKey='somekey' \
 -pusherApp="1"

@@ -2,8 +2,8 @@ package dbrepo
 
 import (
 	"database/sql"
-	"github.com/tsawler/vigilate/pkg/config"
-	"github.com/tsawler/vigilate/pkg/repository"
+	"host-manager/pkg/config"
+	"host-manager/pkg/repository"
 )
 
 var app *config.AppConfig

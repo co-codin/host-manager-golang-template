@@ -2,11 +2,13 @@ package main
 
 import (
 	"encoding/gob"
+	"host-manager/pkg/handlers"
+	"host-manager/pkg/models"
+
 	"github.com/alexedwards/scs/v2"
 	"github.com/pusher/pusher-http-go"
-	"github.com/tsawler/vigilate/pkg/config"
-	"github.com/tsawler/vigilate/pkg/handlers"
-	"github.com/tsawler/vigilate/pkg/models"
+	"host-manager/pkg/config"
+
 	"log"
 	"net/http"
 	"os"

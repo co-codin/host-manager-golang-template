@@ -3,10 +3,12 @@ package dbrepo
 import (
 	"context"
 	"database/sql"
-	"github.com/tsawler/vigilate/pkg/models"
-	"golang.org/x/crypto/bcrypt"
+	"host-manager/pkg/models"
+
 	"log"
 	"time"
+
+	"golang.org/x/crypto/bcrypt"
 )
 
 // AllUsers returns all users

@@ -1,9 +1,11 @@
 package main
 
 import (
+	"host-manager/pkg/config"
+	"host-manager/pkg/handlers"
+
 	"github.com/go-chi/chi"
-	"github.com/tsawler/vigilate/pkg/config"
-	"github.com/tsawler/vigilate/pkg/handlers"
+
 	"net/http"
 	//"github.com/go-chi/chi/middleware"
 )

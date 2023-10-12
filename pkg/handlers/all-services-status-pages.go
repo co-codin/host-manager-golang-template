@@ -1,9 +1,10 @@
 package handlers
 
 import (
+	"net/http"
+
 	"github.com/tsawler/vigilate/pkg/config"
 	"github.com/tsawler/vigilate/pkg/helpers"
-	"net/http"
 )
 
 // AllHealthyServices lists all healthy services

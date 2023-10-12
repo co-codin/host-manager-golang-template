@@ -3,14 +3,17 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"host-manager/pkg/channeldata"
+
 	"github.com/aymerick/douceur/inliner"
-	"github.com/tsawler/vigilate/pkg/channeldata"
-	mail "github.com/xhit/go-simple-mail/v2"
+
 	"html/template"
-	"jaytaylor.com/html2text"
 	"log"
 	"strconv"
 	"time"
+
+	mail "github.com/xhit/go-simple-mail/v2"
+	"jaytaylor.com/html2text"
 )
 
 // NewWorker takes a numeric id and a channel w/ worker pool.

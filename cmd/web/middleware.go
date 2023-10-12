@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+	"host-manager/pkg/helpers"
+
 	"github.com/justinas/nosurf"
-	"github.com/tsawler/vigilate/pkg/helpers"
+
 	"net/http"
 	"strconv"
 	"strings"

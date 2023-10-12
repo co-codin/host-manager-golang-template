@@ -1,6 +1,6 @@
 package helpers
 
-import "github.com/tsawler/vigilate/pkg/channeldata"
+import "host-manager/pkg/channeldata"
 
 // SendEmail sends an email
 func SendEmail(mailMessage channeldata.MailData) {

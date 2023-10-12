@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"github.com/tsawler/vigilate/pkg/config"
-	"github.com/tsawler/vigilate/pkg/helpers"
 	"net/http"
+
+	"host-manager/pkg/config"
+	"host-manager/pkg/helpers"
 )
 
 // ListEntries lists schedule entries

@@ -1,11 +1,13 @@
 package config
 
 import (
+	"host-manager/pkg/channeldata"
+	"host-manager/pkg/driver"
+
 	"github.com/alexedwards/scs/v2"
 	"github.com/pusher/pusher-http-go"
 	"github.com/robfig/cron/v3"
-	"github.com/tsawler/vigilate/pkg/channeldata"
-	"github.com/tsawler/vigilate/pkg/driver"
+
 	"html/template"
 )
 

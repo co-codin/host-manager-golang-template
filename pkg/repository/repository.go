@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/tsawler/vigilate/pkg/models"
+import "host-manager/pkg/models"
 
 // DatabaseRepo is the database repository
 type DatabaseRepo interface {

@@ -3,14 +3,16 @@ package main
 import (
 	"flag"
 	"fmt"
+	"host-manager/pkg/channeldata"
+	"host-manager/pkg/config"
+	"host-manager/pkg/driver"
+	"host-manager/pkg/handlers"
+	"host-manager/pkg/helpers"
+
 	"github.com/alexedwards/scs/postgresstore"
 	"github.com/alexedwards/scs/v2"
 	"github.com/pusher/pusher-http-go"
-	"github.com/tsawler/vigilate/pkg/channeldata"
-	"github.com/tsawler/vigilate/pkg/config"
-	"github.com/tsawler/vigilate/pkg/driver"
-	"github.com/tsawler/vigilate/pkg/handlers"
-	"github.com/tsawler/vigilate/pkg/helpers"
+
 	"log"
 	"net/http"
 	"os"
